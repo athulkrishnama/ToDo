@@ -1,0 +1,68 @@
+.App > h1{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 70px;
+}
+
+.tasks{
+  display: flex;
+  flex: 2 1;
+  
+}
+
+.tasks > div{
+  flex-grow: 1;
+  margin: 5px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px 5px rgb(182, 181, 181) ;
+}
+
+.tasks > div > h2{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  padding: 35px 0;
+}
+
+input{
+  font-size: 30px;
+  border-radius: 10px;
+  border:2px solid rgb(148, 147, 147);
+}
+/* color changing on focus not working */
+input:focus{
+  border: 2px solid green;
+}
+
+.input > h2{
+  margin: 2px 15px;
+}
+
+
+.todo h3{
+  color: red;
+}
+
+.completed, .deleted, .todo{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 34px;
+
+}
+
+.completed > input, .todo > input{
+  height: 30px;
+  width: 30px;
+}
+
+
+.todo h3,h4{
+  margin: 0;
+}
+
+
+
