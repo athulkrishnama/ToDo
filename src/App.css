@@ -64,5 +64,14 @@ input:focus{
   margin: 0;
 }
 
+.completed{
+  text-decoration: line-through;
+  color: gray;
+}
+
+.deleted{
+  color: red;
+}
+
 
 
